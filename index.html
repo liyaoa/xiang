@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/boot-style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+	</head>
+	<style>
+		
+		@media (min-width:768px) {
+    		.navbar-default .navbar-collapse{
+				background: red;
+				}
+    	}
+    	
+    	@media (min-width:912px) {
+    		.navbar-default .navbar-collapse{
+				background: yellow;
+				}
+    	}
+    	@media (min-width:1200px) {
+    		.navbar-default .navbar-collapse{
+				background: #fff;
+				}
+    	}
+    	
+	</style>
+	<body>
+		<!--导航logo和nav-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">小仙女</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">首页</a></li>
+						<li><a href="#bbs">论坛</a></li>
+						<li><a href="#html5">前端开发</a></li>
+						<li><a href="#course">最新课程</a></li>
+						<li><a href="#app">移动APP</a></li>
+						<li><a href="#contact">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--导航-->
+		<!--第一屏/首页-->
+		<section id="home">
+			<div class="lvjing">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<h1>bootstrap实战课程等你来战！</h1>
+							<p>
+								本课程适用于：1，WEB开发人员：2.网站维护人员，管理人员<br>
+								本课程适用于：1，WEB开发人人员，管理B开发人员：2.网站维护人员，管理人员
+							</p>
+							<img src="img/php.jpg" class="img-responsive"/>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--第二屏/论坛-->
+		<!--bbs-->
+		<section id="bbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://www.baidu.com" target="_blank" class="animated bounceInDown">
+						<img src="img/a.png" class="img-responsive"/>
+						<h3>Android开发</h3>
+						<p>Android开发技术交流，问题求助，实战案例分享</p>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://www.baidu.com" target="_blank" class="animated bounceInLeft"><!--給自适应时图片栅格会走偏需要给他margin 0 auto-->					
+						<img src="img/i.png" class="img-responsive"/>
+						<h3>IOS开发</h3>
+						<p>IOS开发技术交流，问题求助，实战案例分享</p>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://www.baidu.com" target="_blank" class="animated bounceInRight">
+						
+						<img src="img/b.png" class="img-responsive"/>
+						<h3>嵌入式底层开发</h3>
+						<p>嵌入式底层开发发，问题求助，实战案例分享</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--bbs-->
+		<!--第三屏/前端开发-->
+		<section id="html5">
+			<div class="container">
+				<div class="col-md-6">
+					<h2>HTML5前端开发</h2>
+					<p>一线资深前端开发工程师倾情打造！助您完成普通程序员优秀工程师的华丽升级！</p>
+					<p><span class="glyphicon glyphicon-grain bawei"> </span>会用HTML5余CSS3技术轻松实现设备自适应展示。</p>
+					<p><span class="glyphicon glyphicon-grain bawei"> </span>资深前端开发工程师倾情打造！助您3技啊术轻松实完成普通程</p>
+				</div>
+				
+				<div class="col-md-6">
+					<img src="img/html5.jpg" class="img-responsive" class="animated pulse"/>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--第四屏/前端开发-->
+		<section class="boot">
+			<div class="container">
+				<div class="col-md-6"><img src="img/Bootstrap.jpg" class="img-responsive"/></div>
+				<div class="col-md-6">
+					<h2>bootstrap实战视频教程</h2>
+					<p>一线资深前端开发工程师倾情打造！助您工程师倾情打造！助您完成普端开发工程师倾情打造！助您完成普通程序员优秀工程师的华丽升级！</p>
+					<p><span class="glyphicon glyphicon-grain bawei"> </span>会用HTML5余CSS3技术轻松实现设备自适应展示。</p>
+					<p><span class="glyphicon glyphicon-grain bawei"> </span>资深前端开发工程师倾情打造！助您3技啊术轻松实完成普通程</p>
+				</div>
+			</div>
+		</section>
+		
+		<!--第五屏/最新课程-->
+		<section id="course">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>最新课程</h2>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					
+					
+					<!--第五屏/二部分-->
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-lg-3 col-sm-6 col-xs-6">
+						<div class="course">
+							<img src="img/swift.jpg" class="img-responsive"/>
+							<a href="http://www.bootcss.com/" target="_blank" class="btn bg-primary">加入学习</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<section id="app">
+	<!--第六屏/移动App-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">            
+						<h3>八维学院移动APP下载</h3>
+						<p>个；脱衣服盖饭以蚓投鱼一天雨一天一个月挂号费游泳关于她邘矛矛圣矛他他他胡好尴尬<br>一股股应该古语有优惠雨与沟通与沟通与沟通</p>
+						<button class="btn btn-default">
+							<span class="glyphicon glyphicon-download-alt"></span> Androidapp
+						</button>
+						
+						<button class="btn btn-default">
+							<span class="glyphicon glyphicon-download-alt"></span> Androidapp
+						</button>
+					</div>
+					<div class="col-md-6">
+						<img src="img/app-banner.jpg" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--第七屏/练习我们-->
+		<section id="contact">
+			<div class="lvjing">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2><span class="glyphicon glyphicon-send"></span> &nbsp;&nbsp;&nbsp;联系八维</h2>
+							<p>咕庸咕庸咕庸咕庸咕庸咕庸呼呼呼个规范发帖反映工业丰富共同研发给他田园风光退放过同一个繁体与风格统一风格统一杨国富亚太股份亚太股份一个一个访谈法通过一个月分隔符一个研发提供福衣服给他发挂号费听歌否头发头发犯桃花合肥给改改高峰过后访谈法访谈法通过访谈法</p>
+							<address>
+								<p>
+									<span class="glyphicon glyphicon-home"></span> 
+									地址：北京市海淀区中关村软件园南站57号</p>
+								<p>
+									<span class="glyphicon glyphicon-phone"></span> 
+									联系电话：010-10101010010</p>
+								<p>
+									<span class="glyphicon glyphicon-envelope"></span> 
+									@：hr@bawei.com</p>
+							</address>
+						</div>
+						
+						<div class="col-md-6">
+							<form action="#" method="post">
+								<div class="col-md-6">
+									<input type="text" class="form-control" placeholder="您的姓名" />
+								</div>
+								
+								<div class="col-md-6">
+									<input type="email" class="form-control" placeholder="您的邮箱" />
+								</div>
+								
+								<div class="col-md-12">
+									<input type="text" class="form-control" placeholder="标题" />
+								</div>
+								
+								<div class="col-md-12">
+									<textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+								</div>
+								
+								<div class="col-md-8">
+									<input type="submit" class="form-control" value="提交">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+	</body>
+
+</html>
